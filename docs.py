@@ -16,7 +16,7 @@ with open("pyproject.toml", "rb") as f:
     toml = tomli.load(f)
 
 print(
-    f'updating `pyprojet.toml` version from `{toml["project"]["version"]}` to `{ ty.__version__}`'
+    f'updating `pyprojet.toml` version from `{toml["project"]["version"]}` to `{main.__version__}`'
 )
 toml["project"]["version"] = main.__version__
 
