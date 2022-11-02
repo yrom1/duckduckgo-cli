@@ -19,8 +19,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dependencies = [
-]
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/yrom1/duckduckgo-cli"
