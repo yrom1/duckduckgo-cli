@@ -1,6 +1,15 @@
 """
+---
+WORK IN PROGRESS
+---
+
 # duckduckgo-cli
 Search duckduckgo in terminal open browser
+
+## Install
+```
+pip install duckduckgo-cli
+```
 
 ## Typical usage examples
 ```
