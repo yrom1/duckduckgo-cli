@@ -5,6 +5,7 @@ on:
     workflows: ["Update docs"]
     types:
       - completed # TODO this runs for success AND failure
+  workflow_dispatch:
 
 env:
   TWINE_USERNAME: ${{ secrets.TWINE_USERNAME }}
