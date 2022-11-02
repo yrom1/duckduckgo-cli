@@ -1,2 +1,5 @@
 ty-command
 pytest
+mypy
+tomli
+tomli-w
